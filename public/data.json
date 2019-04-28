@@ -1,0 +1,202 @@
+[
+  {
+      "id": 1,
+      "status": "current",
+      "street": "1 Fake Street",
+      "suburb": "Glen Iris",
+      "state": "VIC",
+      "postcode": "3146",
+      "price": 1230500,
+      "image": "https://code-challenge.activepipe.com/property-images/frontage/01.jpg"
+  },
+  {
+      "id": 2,
+      "status": "current",
+      "street": "2 Fake Street",
+      "suburb": "Glen Iris",
+      "state": "VIC",
+      "postcode": "3146",
+      "price": 1330500,
+      "image": "https://code-challenge.activepipe.com/property-images/frontage/02.jpg"
+  },
+  {
+      "id": 3,
+      "status": "current",
+      "street": "3 Fake Street",
+      "suburb": "Glen Iris",
+      "state": "VIC",
+      "postcode": "3146",
+      "price": 2200000,
+      "image": "https://code-challenge.activepipe.com/property-images/frontage/03.jpg"
+  },
+  {
+      "id": 4,
+      "status": "sold",
+      "street": "4 Fake Street",
+      "suburb": "Glen Iris",
+      "state": "VIC",
+      "postcode": "3146",
+      "price": 1431000,
+      "image": "https://code-challenge.activepipe.com/property-images/frontage/04.jpg"
+  },
+  {
+      "id": 5,
+      "status": "sold",
+      "street": "5 Fake Street",
+      "suburb": "Glen Iris",
+      "state": "VIC",
+      "postcode": "3146",
+      "price": 1500000,
+      "image": "https://code-challenge.activepipe.com/property-images/frontage/05.jpg"
+  },
+  {
+      "id": 6,
+      "status": "current",
+      "street": "6 Fake Street",
+      "suburb": "Glen Iris",
+      "state": "VIC",
+      "postcode": "3146",
+      "price": 1110250,
+      "image": "https://code-challenge.activepipe.com/property-images/frontage/06.jpg"
+  },
+  {
+      "id": 7,
+      "status": "off_market",
+      "street": "7 Fake Street",
+      "suburb": "Glen Iris",
+      "state": "VIC",
+      "postcode": "3146",
+      "price": 1110000,
+      "image": "https://code-challenge.activepipe.com/property-images/frontage/07.jpg"
+  },
+  {
+      "id": 8,
+      "status": "current",
+      "street": "8 Fake Street",
+      "suburb": "Glen Iris",
+      "state": "VIC",
+      "postcode": "3146",
+      "price": 3400000,
+      "image": "https://code-challenge.activepipe.com/property-images/frontage/08.jpg"
+  },
+  {
+      "id": 9,
+      "status": "current",
+      "street": "9 Fake Street",
+      "suburb": "Glen Iris",
+      "state": "VIC",
+      "postcode": "3146",
+      "price": 2280000,
+      "image": "https://code-challenge.activepipe.com/property-images/frontage/09.jpg"
+  },
+  {
+      "id": 10,
+      "status": "current",
+      "street": "10 Fake Street",
+      "suburb": "Glen Iris",
+      "state": "VIC",
+      "postcode": "3146",
+      "price": 2930000,
+      "image": "https://code-challenge.activepipe.com/property-images/frontage/10.jpg"
+  },
+  {
+      "id": 11,
+      "status": "current",
+      "street": "11 Fake Street",
+      "suburb": "Glen Iris",
+      "state": "VIC",
+      "postcode": "3146",
+      "price": 1130000,
+      "image": "https://code-challenge.activepipe.com/property-images/frontage/11.jpg"
+  },
+  {
+      "id": 12,
+      "status": "current",
+      "street": "12 Fake Street",
+      "suburb": "Glen Iris",
+      "state": "VIC",
+      "postcode": "3146",
+      "price": 1230500,
+      "image": "https://code-challenge.activepipe.com/property-images/frontage/12.jpg"
+  },
+  {
+      "id": 13,
+      "status": "sold",
+      "street": "13 Fake Street",
+      "suburb": "Glen Iris",
+      "state": "VIC",
+      "postcode": "3146",
+      "price": 2200000,
+      "image": "https://code-challenge.activepipe.com/property-images/frontage/13.jpg"
+  },
+  {
+      "id": 14,
+      "status": "current",
+      "street": "14 Fake Street",
+      "suburb": "Glen Iris",
+      "state": "VIC",
+      "postcode": "3146",
+      "price": 3200000,
+      "image": "https://code-challenge.activepipe.com/property-images/frontage/14.jpg"
+  },
+  {
+      "id": 15,
+      "status": "withdrawn",
+      "street": "15 Fake Street",
+      "suburb": "Glen Iris",
+      "state": "VIC",
+      "postcode": "3146",
+      "price": 2230000,
+      "image": "https://code-challenge.activepipe.com/property-images/frontage/15.jpg"
+  },
+  {
+      "id": 16,
+      "status": "current",
+      "street": "16 Fake Street",
+      "suburb": "Glen Iris",
+      "state": "VIC",
+      "postcode": "3146",
+      "price": 1210000,
+      "image": "https://code-challenge.activepipe.com/property-images/frontage/16.jpg"
+  },
+  {
+      "id": 17,
+      "status": "current",
+      "street": "17 Fake Street",
+      "suburb": "Glen Iris",
+      "state": "VIC",
+      "postcode": "3146",
+      "price": 1300000,
+      "image": "https://code-challenge.activepipe.com/property-images/frontage/17.jpg"
+  },
+  {
+      "id": 18,
+      "status": "off_market",
+      "street": "18 Fake Street",
+      "suburb": "Glen Iris",
+      "state": "VIC",
+      "postcode": "3146",
+      "price": 2230500,
+      "image": "https://code-challenge.activepipe.com/property-images/frontage/18.jpg"
+  },
+  {
+      "id": 19,
+      "status": "current",
+      "street": "19 Fake Street",
+      "suburb": "Glen Iris",
+      "state": "VIC",
+      "postcode": "3146",
+      "price": 4200000,
+      "image": "https://code-challenge.activepipe.com/property-images/frontage/19.jpg"
+  },
+  {
+      "id": 20,
+      "status": "sold",
+      "street": "20 Fake Street",
+      "suburb": "Glen Iris",
+      "state": "VIC",
+      "postcode": "3146",
+      "price": 1000000,
+      "image": "https://code-challenge.activepipe.com/property-images/frontage/20.jpg"
+  }
+]

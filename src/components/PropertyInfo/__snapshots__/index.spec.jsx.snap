@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PropertyInfo Component test Component Snapshot Testing 1`] = `
+<div
+  className="cell"
+>
+  <div>
+    <span
+      className="currency"
+    >
+      $
+      1,230,500
+    </span>
+    <Status
+      status="current"
+    />
+  </div>
+  <img
+    alt="property"
+    className="property-img"
+    src="https://code-challenge.activepipe.com/property-images/frontage/01.jpg"
+  />
+  <div
+    className="address"
+  >
+    <div>
+      1 Fake Street
+    </div>
+    <div>
+      Glen Iris
+    </div>
+    <div>
+      VIC
+       
+      3146
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PropertyInfo Component test Component Snapshot Testing for invalid status 1`] = `
+<PropertyInfo
+  id={1}
+  image="https://code-challenge.activepipe.com/property-images/frontage/01.jpg"
+  postcode="3146"
+  price={1230500}
+  state="VIC"
+  status="not_listed"
+  street="1 Fake Street"
+  suburb="Glen Iris"
+>
+  <div
+    className="cell"
+  >
+    <div>
+      <span
+        className="currency"
+      >
+        $
+        1,230,500
+      </span>
+      <Status
+        status="not_listed"
+      >
+        <span
+          className="status"
+        >
+          <span>
+            not_listed
+          </span>
+          <span
+            className="status-icon not_listed"
+          />
+        </span>
+      </Status>
+    </div>
+    <img
+      alt="property"
+      className="property-img"
+      src="https://code-challenge.activepipe.com/property-images/frontage/01.jpg"
+    />
+    <div
+      className="address"
+    >
+      <div>
+        1 Fake Street
+      </div>
+      <div>
+        Glen Iris
+      </div>
+      <div>
+        VIC
+         
+        3146
+      </div>
+    </div>
+  </div>
+</PropertyInfo>
+`;

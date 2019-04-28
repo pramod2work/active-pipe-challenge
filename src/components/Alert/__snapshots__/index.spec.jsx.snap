@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error Component test Component Snapshot Testing 1`] = `
+<div
+  className="error"
+  role="alert"
+>
+  <div
+    className="error-section"
+  >
+    <div
+      className="error-msg"
+    >
+      <span
+        aria-label="sorry"
+        className="error-icon"
+        role="img"
+      >
+        😞
+      </span>
+      Uh-oh... it looks like some things haven't loaded correctly.
+    </div>
+    <div
+      className="error-retry"
+    >
+      <button
+        aria-label="retry"
+        className="retry-action"
+        data-test-id="retry-action"
+        onClick={[Function]}
+        type="button"
+      >
+        <img
+          alt="retry"
+          className="retry-icon"
+          src="retry.png"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

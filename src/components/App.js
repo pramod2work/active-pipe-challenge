@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import PropTypes from 'prop-types'
 
 import './App.css';
 import { listPropertiesFetch } from '../reducers/listProperties';
-import { PropertyInfo } from './ProretyInfo'
-import { Filter } from './Filter';
+import { PropertyInfo } from './PropertyInfo'
+import { Filter } from './Filter'
 import { Spinner } from './Spinner';
 import { Error } from './Alert';
 
-class App extends Component {
+export class App extends Component {
   constructor(props) {
     super(props)
 
@@ -73,6 +74,29 @@ class App extends Component {
   }
 }
 
+App.defaultProps = {
+  listPropertiesData: {
+    data: false,
+    inProgress: false,
+    error: false
+  },
+  listPropertiesFetch: () => {}
+}
+
+PropertyInfo.propTypes = {
+  listPropertiesData: PropTypes.shape({
+    data: PropTypes.oneOfType([
+      PropTypes.bool,
+      PropTypes.any
+    ]),
+    error: PropTypes.oneOfType([
+      PropTypes.bool,
+      PropTypes.any
+    ]),
+    inProgress: PropTypes.bool,
+  }),
+  listPropertiesFetch: PropTypes.func,
+}
 
 export const mapStateToProps = ({
   listPropertiesData = {},

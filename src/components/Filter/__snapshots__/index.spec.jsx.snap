@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filter Component test Component Snapshot Testing 1`] = `
+<div
+  className="filter"
+>
+  <label
+    htmlFor="filterProperty"
+  >
+    Filter Status
+  </label>
+  <select
+    id="filterProperty"
+    name="filterProperty"
+    onChange={[Function]}
+  >
+    <option
+      value=""
+    >
+      All
+    </option>
+    <option
+      key="current"
+      value="current"
+    >
+      Current
+    </option>
+    <option
+      key="sold"
+      value="sold"
+    >
+      Sold
+    </option>
+    <option
+      key="off_market"
+      value="off_market"
+    >
+      Off Market
+    </option>
+    <option
+      key="withdran"
+      value="withdran"
+    >
+      Withdrawn
+    </option>
+  </select>
+</div>
+`;

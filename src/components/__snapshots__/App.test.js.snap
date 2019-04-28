@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component Testing Snapshot for Error scenario 1`] = `
+<div
+  className="App"
+>
+  <Error
+    retryAction={[Function]}
+  />
+</div>
+`;
+
+exports[`App Component Testing Snapshot for Error scenario 2`] = `
+<div
+  className="App"
+>
+  <Spinner />
+</div>
+`;
+
+exports[`App Component Testing Snapshot for Success scenario 1`] = `
+<div
+  className="App"
+>
+  <div>
+    <Filter
+      updateData={[Function]}
+    />
+    <div
+      className="container"
+    >
+      <PropertyInfo
+        id={1}
+        image="https://code-challenge.activepipe.com/property-images/frontage/01.jpg"
+        key="1"
+        postcode="3146"
+        price={1230500}
+        state="VIC"
+        status="current"
+        street="1 Fake Street"
+        suburb="Glen Iris"
+      />
+    </div>
+  </div>
+</div>
+`;

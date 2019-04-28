@@ -1,51 +1,55 @@
-import * as profileDataReducer from './index'
+import * as listPropertiesDataReducer from './index'
 
-const responseData = { profile: true }
+const initialState = {
+  data: null,
+  error: false,
+  inProgress: false,
+}
+const responseData = { properties: true }
 const errorResponse = { errorData: true }
 
-describe('profileDataReducer', () => {
+describe('listPropertiesDataReducer', () => {
   test('Dispatch for service request', () => {
-    expect(profileDataReducer.profilefetch()).toEqual({
-      type: profileDataReducer.PROFILE_REQUEST,
-      payload: { inProgress: true },
+    expect(listPropertiesDataReducer.listPropertiesFetch()).toEqual({
+      type: listPropertiesDataReducer.LIST_PROPERTIES_FETCH,
     })
   })
 
   test('Response of success callback', () => {
-    expect(profileDataReducer.profilesuccess(responseData)).toEqual({
-      type: profileDataReducer.PROFILE_SUCCESS,
-      payload: { data: responseData },
+    expect(listPropertiesDataReducer.listPropertiesSuccess(responseData)).toEqual({
+      type: listPropertiesDataReducer.LIST_PROPERTIES_SUCCESS,
+      payload: { ...responseData },
     })
   })
 
   test('Response of error callback', () => {
-    expect(profileDataReducer.profilefailure(errorResponse)).toEqual({
-      type: profileDataReducer.PROFILE_FAILURE,
-      payload: { error: errorResponse },
+    expect(listPropertiesDataReducer.listPropertiesFailure(errorResponse)).toEqual({
+      type: listPropertiesDataReducer.LIST_PROPERTIES_FAILURE,
+      payload: { ...errorResponse },
     })
   })
 
   test('Test reducer response to success promise', () => {
-    expect(profileDataReducer.default(
+    expect(listPropertiesDataReducer.default(
       undefined,
-      profileDataReducer.profilesuccess(responseData),
+      listPropertiesDataReducer.listPropertiesSuccess(responseData),
     ))
-      .toEqual({ data: responseData })
+      .toEqual({ ...initialState, data: responseData })
   })
 
   test('Test reducer response to error promise', () => {
-    expect(profileDataReducer.default(
+    expect(listPropertiesDataReducer.default(
       undefined,
-      profileDataReducer.profilefailure(errorResponse),
+      listPropertiesDataReducer.listPropertiesFailure(errorResponse),
     ))
-      .toEqual({ error: errorResponse })
+      .toEqual({ ...initialState, error: errorResponse })
   })
 
   test('Test reducer response to request promise', () => {
-    expect(profileDataReducer.default(
+    expect(listPropertiesDataReducer.default(
       undefined,
-      profileDataReducer.profilefetch(),
+      listPropertiesDataReducer.listPropertiesFetch(),
     ))
-      .toEqual({ inProgress: true })
+      .toEqual({ ...initialState, inProgress: true })
   })
 })

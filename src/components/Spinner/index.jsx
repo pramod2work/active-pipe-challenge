@@ -1,6 +1,7 @@
 import React from 'react'
 
-import spinner from '../assets/spinner.gif'
+import spinner from '../../assets/spinner.gif'
+import './spinner.css'
 
 export const Spinner = () => (
   <div className="spinner-container">

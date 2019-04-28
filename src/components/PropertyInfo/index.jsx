@@ -1,6 +1,8 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
-import { statusData } from '../utils/constant'
+import { statusData } from '../../utils/constant'
+import './property.css'
 
 const Status = ({ status }) => (
   <span className="status">
@@ -15,7 +17,7 @@ export const PropertyInfo = ({
   suburb,
   state,
   postcode,
-  price = "0",
+  price,
   image,
 }) => (
   <div className="cell">
@@ -31,3 +33,23 @@ export const PropertyInfo = ({
     </div>
   </div>
 )
+
+PropertyInfo.defaultProps = {
+  status: '',
+  street: '',
+  suburb: '',
+  state: '',
+  postcode: '',
+  price: 0,
+  image: '',
+}
+
+PropertyInfo.propTypes = {
+  status: PropTypes.string,
+  street: PropTypes.string,
+  suburb: PropTypes.string,
+  state: PropTypes.string,
+  postcode: PropTypes.string,
+  price: PropTypes.number,
+  image: PropTypes.string,
+}

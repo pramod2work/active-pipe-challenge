@@ -1,6 +1,8 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
-import { statusData } from '../utils/constant'
+import { statusData } from '../../utils/constant'
+import './filter.css'
 
 export const Filter = ({ updateData }) => (
   <div className="filter">
@@ -21,3 +23,11 @@ export const Filter = ({ updateData }) => (
     </select>
   </div>
 )
+
+Filter.defaultProps = {
+  updateData: () => {}
+}
+
+Filter.propTypes = {
+  updateData: PropTypes.func,
+}

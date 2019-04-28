@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spinner Component test Component Snapshot Testing 1`] = `
+<div
+  className="spinner-container"
+>
+  <div
+    className="spinner"
+  >
+    <img
+      alt="spinner"
+      className="spinner-icon"
+      src="spinner.gif"
+    />
+  </div>
+</div>
+`;

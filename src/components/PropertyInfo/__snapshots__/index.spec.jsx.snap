@@ -17,7 +17,7 @@ exports[`PropertyInfo Component test Component Snapshot Testing 1`] = `
   </div>
   <img
     alt="property"
-    className="property-img"
+    className="propertyImg"
     src="https://code-challenge.activepipe.com/property-images/frontage/01.jpg"
   />
   <div
@@ -69,14 +69,14 @@ exports[`PropertyInfo Component test Component Snapshot Testing for invalid stat
             not_listed
           </span>
           <span
-            className="status-icon not_listed"
+            className="not_listed"
           />
         </span>
       </Status>
     </div>
     <img
       alt="property"
-      className="property-img"
+      className="propertyImg"
       src="https://code-challenge.activepipe.com/property-images/frontage/01.jpg"
     />
     <div

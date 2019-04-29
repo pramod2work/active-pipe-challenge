@@ -6,14 +6,14 @@ exports[`Error Component test Component Snapshot Testing 1`] = `
   role="alert"
 >
   <div
-    className="error-section"
+    className="errorSection"
   >
     <div
-      className="error-msg"
+      className="twoColumnGrid"
     >
       <span
         aria-label="sorry"
-        className="error-icon"
+        className="errorIcon"
         role="img"
       >
         😞
@@ -21,18 +21,18 @@ exports[`Error Component test Component Snapshot Testing 1`] = `
       Uh-oh... it looks like some things haven't loaded correctly.
     </div>
     <div
-      className="error-retry"
+      className="twoColumnGrid"
     >
       <button
         aria-label="retry"
-        className="retry-action"
+        className="retryAction"
         data-test-id="retry-action"
         onClick={[Function]}
         type="button"
       >
         <img
           alt="retry"
-          className="retry-icon"
+          className="retryIcon"
           src="retry.png"
         />
       </button>

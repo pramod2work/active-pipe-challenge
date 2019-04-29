@@ -1,9 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App Component Testing Snapshot for Error scenario 1`] = `
-<div
-  className="App"
->
+<div>
   <Error
     retryAction={[Function]}
   />
@@ -11,17 +9,13 @@ exports[`App Component Testing Snapshot for Error scenario 1`] = `
 `;
 
 exports[`App Component Testing Snapshot for Error scenario 2`] = `
-<div
-  className="App"
->
+<div>
   <Spinner />
 </div>
 `;
 
 exports[`App Component Testing Snapshot for Success scenario 1`] = `
-<div
-  className="App"
->
+<div>
   <div>
     <Filter
       updateData={[Function]}

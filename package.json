@@ -38,6 +38,7 @@
     "collectCoverageFrom": [
       "src/**/*.{js,jsx}",
       "!src/assets/**",
+      "!src/style/**",
       "!node_modules/**"
   ],
     "snapshotSerializers": [

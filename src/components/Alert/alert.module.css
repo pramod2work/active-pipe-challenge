@@ -1,0 +1,30 @@
+.error {
+  composes: white-text from '../../style/color.module.css';
+  margin: 24px;
+}
+
+.errorSection {
+  composes: red-background from '../../style/color.module.css';
+  padding: 16px;
+}
+
+.errorIcon {
+  font-size: 20px;
+}
+
+.retryAction {
+  composes: no-background from '../../style/color.module.css';
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 480px) {
+  .retryAction {
+    float: right;
+  }
+}
+
+.retryIcon {
+  width: 26px;
+}

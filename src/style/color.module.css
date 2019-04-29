@@ -1,0 +1,19 @@
+.white-text {
+  color: white;
+}
+
+.stone-text {
+  color: #425266;
+}
+
+.stone-background {
+  background-color: #425266;
+}
+
+.red-background {
+  background-color: red;
+}
+
+.no-background {
+  background-color: transparent;
+}

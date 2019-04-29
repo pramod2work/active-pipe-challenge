@@ -1,0 +1,11 @@
+.filter {
+  composes: stone-background white-text from '../../style/color.module.css';
+  text-align: right;
+  padding: 2vw;
+}
+
+.selectField{
+  composes: no-background white-text from '../../style/color.module.css';
+  border: none;
+  margin-left: 8px;
+}

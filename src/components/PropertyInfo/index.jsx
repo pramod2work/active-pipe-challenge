@@ -2,12 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import { statusData } from '../../utils/constant'
-import './property.css'
+import styles from './property.module.css'
 
 const Status = ({ status }) => (
-  <span className="status">
+  <span className={styles.status}>
     <span>{statusData[status] || status}</span>
-    <span className={`status-icon ${status}`} />
+    <span className={styles[status]} />
   </span>
 )
 
@@ -22,11 +22,11 @@ export const PropertyInfo = ({
 }) => (
   <div className="cell">
     <div>
-      <span className="currency">${Number(price).toLocaleString()}</span>
+      <span className={styles.currency}>${Number(price).toLocaleString()}</span>
       <Status status={status} />
     </div>
-    <img src={image} alt="property" className="property-img" />
-    <div className="address">
+    <img src={image} alt="property" className={styles.propertyImg} />
+    <div className={styles.address}>
       <div>{street}</div>
       <div>{suburb}</div>
       <div>{state} {postcode}</div>

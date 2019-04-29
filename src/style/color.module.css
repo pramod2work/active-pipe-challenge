@@ -10,8 +10,16 @@
   background-color: #425266;
 }
 
+.green-background {
+  background-color: green;
+}
+
 .red-background {
   background-color: red;
+}
+
+.orange-background {
+  background-color: orange;
 }
 
 .no-background {

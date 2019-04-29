@@ -1,0 +1,46 @@
+.currency {
+  float: left;
+}
+
+.status {
+  float: right;
+  text-transform: capitalize;
+}
+
+.icon {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border-radius: 50%;
+  margin-left: 4px;
+}
+
+.withdrawn {
+  composes: icon;
+  composes: stone-background from '../../style/color.module.css';
+}
+
+.current {
+  composes: icon;
+  composes: green-background from '../../style/color.module.css';
+}
+
+.sold {
+  composes: icon;
+  composes: red-background from '../../style/color.module.css';
+}
+
+.off_market {
+  composes: icon;
+  composes: orange-background from '../../style/color.module.css';
+}
+
+.propertyImg {
+  width: 100%;
+  height: 55%;
+  padding: 8px 0;
+}
+
+.address {
+  text-align: center;
+}

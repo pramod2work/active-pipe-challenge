@@ -1,0 +1,12 @@
+body {
+  color: #425266;
+  font-size: 12px;
+  background-color: #6B7B8F;
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}

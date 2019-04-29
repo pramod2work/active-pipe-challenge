@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types'
 
-import './App.css';
 import { listPropertiesFetch } from '../reducers/listProperties';
 import { PropertyInfo } from './PropertyInfo'
 import { Filter } from './Filter'
 import { Spinner } from './Spinner';
 import { Error } from './Alert';
+import layoutStyles from '../style/layout.module.css'
 
 export class App extends Component {
   constructor(props) {
@@ -35,7 +35,7 @@ export class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div>
         {
           this.props.listPropertiesData.inProgress ?
             <Spinner />
@@ -52,7 +52,7 @@ export class App extends Component {
           this.props.listPropertiesData.data ?
             <div>
               <Filter updateData={this.filterProperty} />
-              <div className="container">
+              <div className={layoutStyles.container}>
                 {
                   this.props.listPropertiesData.data &&
                   this.props.listPropertiesData.data.map((property) => {

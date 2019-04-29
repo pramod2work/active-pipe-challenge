@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 
 import { statusData } from '../../utils/constant'
 import styles from './property.module.css'
+import layoutStyles from '../../style/layout.module.css'
 
 const Status = ({ status }) => (
   <span className={styles.status}>
@@ -20,7 +21,7 @@ export const PropertyInfo = ({
   price,
   image,
 }) => (
-  <div className="cell">
+  <div className={layoutStyles.cell}>
     <div>
       <span className={styles.currency}>${Number(price).toLocaleString()}</span>
       <Status status={status} />
